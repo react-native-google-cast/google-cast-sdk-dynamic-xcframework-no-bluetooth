@@ -1,0 +1,6 @@
+use_frameworks!
+target 'google-cast-sdk-dynamic-xcframework-no-bluetooth_Tests' do
+  pod 'google-cast-sdk-dynamic-xcframework-no-bluetooth', :path => '../'
+  
+  
+end
