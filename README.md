@@ -1,6 +1,10 @@
 # google-cast-sdk-dynamic-xcframework-no-bluetooth
 
-Currently Google only provides the framework as a [manual download](https://developers.google.com/cast/docs/ios_sender#xcframework_beta). This is an unofficial pod that can be used in a CocoaPods environment, such as the react-native-google-cast package.
+The Cast iOS SDK supports XCFrameworks, allowing for development on Mac computers with Apple silicon, along with debugging using the iOS Simulator.
+
+However, Google currently only provides the XCFrameworks as a [manual download](https://developers.google.com/cast/docs/ios_sender#xcframework).
+
+This is an unofficial pod that can be used in a CocoaPods environment, such as the react-native-google-cast package.
 
 ## Installation
 
@@ -9,6 +13,8 @@ Add the following line to your Podfile:
 ```ruby
 pod 'google-cast-sdk-dynamic-xcframework-no-bluetooth'
 ```
+
+Versions of this pod follow the official Google SDK versioning.
 
 ## License
 

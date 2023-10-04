@@ -215,6 +215,27 @@ GCK_EXPORT
  */
 @property(nonatomic) UIColor *unplayedAdMarkerFillColor;
 
+/**
+ * The color to be used as thumb tint color of volume slider.
+ *
+ * @since 4.8.0
+ */
+@property(nonatomic) UIColor *volumeSliderThumbTintColor;
+
+/**
+ * The color to be used as minimum track tint color of volume slider.
+ *
+ * @since 4.8.0
+ */
+@property(nonatomic) UIColor *volumeSliderMinimumTrackTintColor;
+
+/**
+ * The color to be used as maximum track tint color of volume slider.
+ *
+ * @since 4.8.0
+ */
+@property(nonatomic) UIColor *volumeSliderMaximumTrackTintColor;
+
 @end
 
 /**

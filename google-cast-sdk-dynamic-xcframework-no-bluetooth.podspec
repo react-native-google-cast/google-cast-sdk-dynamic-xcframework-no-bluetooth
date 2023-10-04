@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'google-cast-sdk-dynamic-xcframework-no-bluetooth'
-  s.version          = '4.7.1'
+  s.version          = '4.8.0'
   s.summary          = 'Google Cast SDK Dynamic XCFramework without Guest Mode'
 
   s.description      = <<-DESC
-  Unofficial pod that packages Google Cast SDK framework from https://developers.google.com/cast/docs/ios_sender#xcframework_beta
+  Unofficial pod that packages Google Cast SDK framework from https://developers.google.com/cast/docs/ios_sender#xcframework
   DESC
   s.homepage         = 'https://github.com/react-native-google-cast/google-cast-sdk-dynamic-xcframework-no-bluetooth'
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'petrbela' => 'github@petrbela.com' }
   s.source           = { git: 'https://github.com/react-native-google-cast/google-cast-sdk-dynamic-xcframework-no-bluetooth.git', tag: s.version }
 
-  s.platform         = :ios, '12.0'
+  s.platform         = :ios, '13.0'
   s.vendored_frameworks = 'GoogleCast.xcframework'
 end
